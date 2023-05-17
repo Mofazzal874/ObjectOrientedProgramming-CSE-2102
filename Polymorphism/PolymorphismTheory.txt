@@ -1,0 +1,18 @@
+//Polymorphism in c++ is of two types:
+//1. Compile time polymorphism
+//2. Run time polymorphism
+//Compile time polymorphism is further divided into two types:
+//1. Static binding
+//2. Dynamic binding
+//Static binding is further divided into two types:
+//1. Function overloading
+//2. Operator overloading
+//Dynamic binding is further divided into two types:
+//1. Function overriding
+//2. Virtual functions
+//Static binding is also called early binding
+//Dynamic binding is also called late binding
+//Static binding: Compiler knows how many objects and functions should be created.
+//Dynamic binding: Compiler doesn't know , we will say that in the runtime of the programme
+
+

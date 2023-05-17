@@ -1,0 +1,89 @@
+4 parts in STL 
+containers 
+iterators 
+algorithms 
+functors
+
+
+
+
+---------------------------Containers-----------------------------
+Sequential containers
+stores element in a linear sequence
+
+vectors                                        
+stack 
+queue
+pair(not a container
+ , actually a class)
+
+ forward_list
+
+Ordered/associative Containers (values are sorted in a order)
+keeps the data in a sorted order 
+performs operations in O(logn)
+
+4 types___
+Maps
+Multimap
+set 
+multiset
+
+Unordered Containers(they are not sorted , they use hashing function)
+Unordered Map/multimap 
+Unordered set/multiset
+
+
+
+Nested containers 
+- vector<vector<int>>
+map<int , vector<int>>
+set <pair<int, string>>
+vector<map<int , set<int,int>>>
+
+
+
+
+---There are others containers in c++ which will be disscussed later
+
+------------------------------Container Adaptors----------------------
+provides different interface for sequential containers.
+
+
+
+
+-------------------------------iterators-------------------------------
+5 types------
+
+->point to memory address of containers(we dont use pointers to point containers .pointers are use to point variable address) or their elements
+->begin() , end() 
+-> continuity for containers 
+like --
+    you can use it+1 for vectors but you cant use it+1 for maps .you can use it++ 
+
+
+
+
+
+--------------------------------Algorithms--------------------------------------
+A collection of functions designed to be used on a range of element.
+
+- upper_bound
+-lower_bound
+-sort( and also comparator in details)
+-max_element
+-min_element
+-accumulate
+-reverse
+-count
+-find
+-next_permutations
+-pre_permutations
+------------and many more
+
+
+
+------------------------------functors-----------------------
+
+classes which can act as functions
+
