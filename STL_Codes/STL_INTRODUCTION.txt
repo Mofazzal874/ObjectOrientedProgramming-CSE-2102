@@ -8,20 +8,30 @@ functors
 
 
 ---------------------------Containers-----------------------------
-Sequential containers
-stores element in a linear sequence
 
-vectors                                        
-stack 
-queue
-pair(not a container
- , actually a class)
+** 16 containers are grouped into 4 categories--
+- Sequence Container
+- Ordered associative container
+- Unordered associative Container
+- Container Adaptor
 
- forward_list
 
-Ordered/associative Containers (values are sorted in a order)
-keeps the data in a sorted order 
-performs operations in O(logn)
+
+->Sequence container
+- stores element in a linear sequence
+- objects that holds data of same types.
+6 types--
+- array
+- vector
+- stack
+- queue , deque
+- pair(not a container , actually a class) 
+- forward_list
+
+
+->Ordered/associative Containers (values are sorted in a order)
+- keeps the data in a sorted order 
+- performs operations in O(logn)
 
 4 types___
 Maps
