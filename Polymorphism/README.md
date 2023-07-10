@@ -25,11 +25,11 @@ First you need to know what is Runtime and what is compile Time?
     - Static binding
         - Function overloading
         - Operator overloading
+    
+- Run time polymorphism
     - Dynamic binding
         - Function overriding
         - Virtual functions
-- Run time polymorphism
-    - Dynamic binding
 
 **Now, what is binding?**
 
@@ -50,7 +50,7 @@ In c++ , Binding means linking of a function call to its definition.
 - constructor overloading is also an example of static binding.
 
 ---
-**N.B. :** a constructor cannot be overridden. If you try to write a super class’s constructor in the sub class compiler treats it as a method and expects a return type and generates a compile time error.
+**N.B. :** a constructor cannot be overridden. If you try to write a super class’s constructor in the sub class, compiler treats it as a method and expects a return type and generates a compile time error.
 ```java
 class DemoTest{
    DemoTest(){
@@ -103,13 +103,19 @@ Another example is operator Overloading
         return 0;
     }
 
-Output: 
-C:\Sample>javac Example.java
-Example.java:2: error: class Sample is public, should be declared in a file named Sample.java
-public class Sample {
-^
-1 error
-   ```
+```
+
+
+- Actually, In operator overloading , overloaded operators are called as function so that static binding could happen.
+For example:
+```c++
+for a operation like :
+nX + nY: operator+(nX, nY) (where operator+ is the name of the function). 
+
+Similarly dX + dY becomes operator+(dX, dY). 
+Even though both expressions call a function named operator+(), function overloading is used to resolve the function calls to different versions of the function based on parameter type(s).
+```
+
    
 
 
