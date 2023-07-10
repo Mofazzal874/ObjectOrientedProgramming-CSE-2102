@@ -25,6 +25,7 @@ First you need to know what is Runtime and what is compile Time?
     - Static binding
         - Function overloading
         - Operator overloading
+        -constructor overloading
     
 - Run time polymorphism
     - Dynamic binding
@@ -46,7 +47,7 @@ In c++ , Binding means linking of a function call to its definition.
 **Way of Doing static Binding in C++:**
 - Function overloading
 - Operator overloading
-- Every Function Call is binded statically by default.
+- Every Function Call is binded statically by default.(throughout the whole program)
 - constructor overloading is also an example of static binding.
 
 ---
