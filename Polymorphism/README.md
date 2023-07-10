@@ -51,7 +51,7 @@ In c++ , Binding means linking of a function call to its definition.
 - constructor overloading is also an example of static binding.
 
 ---
-**N.B. :** a constructor cannot be overridden. If you try to write a super class’s constructor in the sub class, compiler treats it as a method and expects a return type and generates a compile time error.
+**N.B. :** a constructor cannot be overridden. If you try to write a super class’s constructor in the sub class, compiler treats it as a method(or a function) and expects a return type(because the name of the constructor will be same as the name of superclass.But the sub class's constructor is different named.So the superclass's constructor will be named as a function with no return type.so it is not valid) and generates a compile time error.
 ```java
 class DemoTest{
    DemoTest(){
