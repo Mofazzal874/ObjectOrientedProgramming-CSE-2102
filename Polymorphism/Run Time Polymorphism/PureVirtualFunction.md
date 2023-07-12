@@ -1,7 +1,7 @@
 # **Pure virtual function** 
 - A pure virtual function is a function that is declared as virtual in the base class and is set to 0.
 - a pure virtual function doesn't contain any implementation.It is just a function declaration.It provides an interface for the derived class to implement.
-- A class containing a pure virtual function is called an abstract class.
+- A class containing at  least one pure virtual function is called an abstract class.
 
 ---
 **Points about abstract class:**
