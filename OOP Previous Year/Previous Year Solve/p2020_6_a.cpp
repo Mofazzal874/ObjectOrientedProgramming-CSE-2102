@@ -50,11 +50,12 @@ int main(){
     baseptr = &p ; 
     baseptr->cal_distance(q) ; 
     baseptr= &r ;
+    
 
     ((point3d*)baseptr)->cal_distance(s) ; //Here we casting basepointer to derived class pointer . 
                                             //Why??because baseptr can access all the members from the base class 
                                             //but it can not directly access the members which are defined in derived class.
-                                            
+
 
     
 }
