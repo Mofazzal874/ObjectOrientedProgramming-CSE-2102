@@ -56,6 +56,7 @@ int main(){
                                             //Why??because baseptr can access all the members from the base class 
                                             //but it can not directly access the members which are defined in derived class.
 
-
+     
+    baseptr->cal_distance(s)  ;
     
 }
